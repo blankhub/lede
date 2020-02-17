@@ -130,9 +130,9 @@ jobs:
           # EOF
 
           # 博通BCM5719网卡支持:
-          # cat >> .config <<EOF
-          # CONFIG_PACKAGE_kmod-tg3=y
-          # EOF
+          cat >> .config <<EOF
+          CONFIG_PACKAGE_kmod-tg3=y
+          EOF
 
           # 常用LuCI插件选择:
           # cat >> .config <<EOF
